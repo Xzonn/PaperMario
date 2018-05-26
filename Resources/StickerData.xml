@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<root>
+  <item code="00" name="(无)" />
+  <item code="0F" name="破烂跳" />
+  <item code="10" name="跳" />
+  <item code="11" name="闪闪跳" />
+  <item code="12" name="闪耀跳" />
+  <item code="13" name="钢铁跳" />
+  <item code="14" name="闪闪钢铁跳" />
+  <item code="15" name="闪耀钢铁跳" />
+  <item code="16" name="巨型闪闪钢铁跳" />
+  <item code="17" name="巨大闪耀钢铁跳" />
+  <item code="18" name="巨型闪闪跳" />
+  <item code="19" name="巨大闪耀跳" />
+  <item code="1A" name="弹簧跳" />
+  <item code="1B" name="闪闪弹簧跳" />
+  <item code="1C" name="闪耀弹簧跳" />
+  <item code="1D" name="巨型闪闪弹簧跳" />
+  <item code="1E" name="巨大闪耀弹簧跳" />
+  <item code="1F" name="闪耀无尽跳" />
+  <item code="20" name="巨型闪闪无尽跳" />
+  <item code="21" name="巨大闪耀无尽跳" />
+  <item code="22" name="轮流跳" />
+  <item code="23" name="闪闪轮流跳" />
+  <item code="24" name="闪耀轮流跳" />
+  <item code="25" name="巨型闪闪轮流跳" />
+  <item code="26" name="巨大闪耀轮流跳" />
+  <item code="27" name="闪耀分身跳" />
+  <item code="28" name="巨型闪闪分身跳" />
+  <item code="29" name="巨大闪耀分身跳" />
+  <item code="2A" name="破烂锤子" />
+  <item code="2B" name="锤子" />
+  <item code="2C" name="闪闪锤子" />
+  <item code="2D" name="闪耀锤子" />
+  <item code="2E" name="巨型闪闪锤子" />
+  <item code="2F" name="巨大闪耀锤子" />
+  <item code="30" name="卟卟锤子" />
+  <item code="31" name="闪闪卟卟锤子" />
+  <item code="32" name="闪耀卟卟锤子" />
+  <item code="33" name="巨型闪闪卟卟锤子" />
+  <item code="34" name="巨大闪耀卟卟锤子" />
+  <item code="35" name="丢丢锤子" />
+  <item code="36" name="闪闪丢丢锤子" />
+  <item code="37" name="闪耀丢丢锤子" />
+  <item code="38" name="巨型闪闪丢丢锤子" />
+  <item code="39" name="巨大闪耀丢丢锤子" />
+  <item code="3A" name="砰砰锤子" />
+  <item code="3B" name="闪闪砰砰锤子" />
+  <item code="3C" name="闪耀砰砰锤子" />
+  <item code="3D" name="巨型闪闪砰砰锤子" />
+  <item code="3E" name="巨大闪耀砰砰锤子" />
+  <item code="3F" name="咩咩锤子" />
+  <item code="40" name="巨型闪闪咩咩锤子" />
+  <item code="41" name="巨大闪耀咩咩锤子" />
+  <item code="42" name="灼热锤子" />
+  <item code="43" name="巨型闪闪灼热锤子" />
+  <item code="44" name="巨大闪耀灼热锤子" />
+  <item code="45" name="极寒锤子" />
+  <item code="46" name="巨型闪闪极寒锤子" />
+  <item code="47" name="巨大闪耀极寒锤子" />
+  <item code="48" name="沙滩鞋" />
+  <item code="49" name="沙滩鞋 (巨型)" />
+  <item code="4A" name="沙滩鞋 (巨大)" />
+  <item code="4B" name="闪闪沙滩鞋" />
+  <item code="4C" name="闪闪沙滩鞋 (巨型)" />
+  <item code="4D" name="闪闪沙滩鞋 (巨大)" />
+  <item code="4E" name="闪耀沙滩鞋" />
+  <item code="4F" name="闪耀沙滩鞋 (巨型)" />
+  <item code="50" name="闪耀沙滩鞋 (巨大)" />
+  <item code="51" name="沙滩鞋 (2)" />
+  <item code="52" name="沙滩鞋 (巨型2)" />
+  <item code="53" name="沙滩鞋 (巨大2)" />
+  <item code="54" name="沙滩鞋 (3)" />
+  <item code="55" name="沙滩鞋 (巨型3)" />
+  <item code="56" name="沙滩鞋 (巨大3)" />
+  <item code="57" name="沙滩鞋 (4)" />
+  <item code="58" name="沙滩鞋 (巨型4)" />
+  <item code="59" name="沙滩鞋 (巨大4)" />
+  <item code="5A" name="超级靴" />
+  <item code="5B" name="闪闪超级靴" />
+  <item code="5C" name="尾巴" />
+  <item code="5D" name="闪闪尾巴" />
+  <item code="5E" name="青蛙服" />
+  <item code="5F" name="闪闪青蛙服" />
+  <item code="60" name="钉刺帽" />
+  <item code="61" name="闪闪钉刺帽" />
+  <item code="62" name="闪耀钉刺帽" />
+  <item code="63" name="火之花" />
+  <item code="64" name="闪闪火之花" />
+  <item code="65" name="闪耀火之花" />
+  <item code="66" name="冰之花" />
+  <item code="67" name="闪闪冰之花" />
+  <item code="68" name="闪耀冰之花" />
+  <item code="69" name="力量块" />
+  <item code="6A" name="闪闪力量块" />
+  <item code="6B" name="闪耀力量块" />
+  <item code="6C" name="龟壳" />
+  <item code="6D" name="闪闪龟壳" />
+  <item code="6E" name="闪耀龟壳" />
+  <item code="6F" name="蘑菇" />
+  <item code="70" name="闪闪蘑菇" />
+  <item code="71" name="闪耀蘑菇" />
+  <item code="72" name="巨型加命蘑菇" />
+  <item code="73" name="巨型闪闪加命蘑菇" />
+  <item code="74" name="毒蘑菇" />
+  <item code="75" name="叶子" />
+  <item code="76" name="闪闪叶子" />
+  <item code="77" name="秘密门" />
+  <item code="78" name="雪球" />
+  <item code="79" name="殊力钢" />
+  <item code="7A" name="木桶" />
+  <item code="7B" name="扳手" />
+  <item code="7C" name="骨头" />
+  <item code="7D" name="飞旋镖" />
+  <item code="7E" name="炸弹" />
+  <item code="7F" name="墨西哥帽" />
+  <item code="80" name="飞镖" />
+  <item code="81" name="智贴贴" />
+  <item code="82" name="电风扇" />
+  <item code="83" name="扇子" />
+  <item code="84" name="手风箱" />
+  <item code="85" name="剪刀" />
+  <item code="86" name="燕尾剪" />
+  <item code="87" name="理发剪" />
+  <item code="88" name="裁缝剪" />
+  <item code="89" name="水龙头" />
+  <item code="8A" name="水壶" />
+  <item code="8B" name="喷壶" />
+  <item code="8C" name="铁盆" />
+  <item code="8D" name="油桶" />
+  <item code="8E" name="一斗罐" />
+  <item code="8F" name="灯泡" />
+  <item code="90" name="手电筒" />
+  <item code="91" name="探照灯" />
+  <item code="92" name="１号电池" />
+  <item code="93" name="纽扣电池" />
+  <item code="94" name="汽车电池" />
+  <item code="95" name="图钉" />
+  <item code="96" name="订书机" />
+  <item code="97" name="透明胶带" />
+  <item code="98" name="小号" />
+  <item code="99" name="吉他" />
+  <item code="9A" name="小提琴" />
+  <item code="9B" name="床" />
+  <item code="9C" name="枕头" />
+  <item code="9D" name="豪华床" />
+  <item code="9E" name="凿岩机" />
+  <item code="9F" name="手机" />
+  <item code="A0" name="吸尘器" />
+  <item code="A1" name="手持吸尘器" />
+  <item code="A2" name="立式吸尘器" />
+  <item code="A3" name="火柴" />
+  <item code="A4" name="打火机" />
+  <item code="A5" name="沙冰" />
+  <item code="A6" name="空调" />
+  <item code="A7" name="冰箱" />
+  <item code="A8" name="烤箱" />
+  <item code="A9" name="油汀取暖器" />
+  <item code="AA" name="报纸" />
+  <item code="AB" name="玩具球棒" />
+  <item code="AC" name="球棒" />
+  <item code="AD" name="气球" />
+  <item code="AE" name="粉扑" />
+  <item code="AF" name="汽车清洁海绵" />
+  <item code="B0" name="海绵" />
+  <item code="B1" name="怀表" />
+  <item code="B2" name="苏打水" />
+  <item code="B3" name="水枪" />
+  <item code="B4" name="放大镜" />
+  <item code="B5" name="山羊" />
+  <item code="B6" name="鱼钩" />
+  <item code="B7" name="吹风机" />
+  <item code="B8" name="招财猫" />
+  <item code="B9" name="台球" />
+  <item code="BA" name="冰壶" />
+  <item code="BB" name="保龄球" />
+  <item code="BC" name="蛋糕" />
+  <item code="BD" name="高跟鞋" />
+  <item code="BE" name="火鸡" />
+  <item code="BF" name="小鸭鸭" />
+  <item code="C0" name="奖杯" />
+  <item code="C1" name="立体声收录机" />
+</root>
