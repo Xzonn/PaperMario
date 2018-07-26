@@ -1,0 +1,177 @@
+#header {
+    background-image: url(./images/header.png);
+    height: 130px;
+    width: 100%;
+    position: relative;
+    border-bottom: 2px dashed #FFF;
+}
+
+#headerLogo {
+    display: block;
+    width: 357px;
+    height: 128px;
+    position: absolute;
+    left: calc(50% - 600px);
+    top: 0;
+    background-image: url(./images/logo.png);
+    background-position-x: -74px;
+}
+
+#headerLogo:after {
+    display: block;
+    position: absolute;
+    content: "";
+    bottom: 5px;
+    right: 10px;
+    width: 72px;
+    height: 39px;
+    background-image: url(./images/logo2.png);
+}
+
+#headerLogo:hover {
+    text-decoration: none;
+}
+
+#headerLink {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    width: 378px;
+    height: 43px;
+    position: absolute;
+    left: calc(50% - 10.5px);
+    top: 42.5px;
+}
+
+#headerLink:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+#headerLink li {
+    width: 126px;
+    height: 43px;
+    background: url(./images/button.png);
+    line-height: 43px;
+    text-align: center;
+    float: left;
+}
+
+#content {
+    margin: 0 auto;
+    box-shadow: none;
+    border: none;
+    border-radius: 0;
+    background: none;
+}
+
+#footer {
+    margin: 0;
+    width: 100%;
+    max-width: 100%;
+    border: none;
+    border-radius: 0;
+    background: url(./images/footer.png) repeat-x;
+}
+
+.battleSticker.listTable td:nth-child(4), .battleSticker.listTable td:nth-child(5), .thingSticker.listTable td:nth-child(4) {
+        text-align: left;
+}
+
+
+.num {
+    display: inline-block;
+    width: 28px;
+    height: 32px;
+    background-image: url(./images/number.png);
+    background-position-x: -480px;
+}
+
+.num-0 {
+    background-position-x: -2px;
+}
+
+.num-1 {
+    background-position-x: -34px;
+}
+
+.num-2 {
+    background-position-x: -66px;
+}
+
+.num-3 {
+    background-position-x: -98px;
+}
+
+.num-4 {
+    background-position-x: -130px;
+}
+
+.num-5 {
+    background-position-x: -162px;
+}
+
+.num-6 {
+    background-position-x: -194px;
+}
+
+.num-7 {
+    background-position-x: -226px;
+}
+
+.num-8 {
+    background-position-x: -258px;
+}
+
+.num-9 {
+    background-position-x: -290px;
+}
+
+.num-x {
+    background-position-x: -354px;
+}
+
+.num-- {
+    background-position-x: -418px;
+}
+
+.num-w {
+    background-position-x: -450px;
+}
+
+
+@media screen and (max-width: 1200px) {
+    #headerLogo {
+        left: 0;
+    }
+}
+
+@media screen and (max-width: 734px) {
+    #headerLogo {
+        left: calc(50% - 178.5px);
+    }
+
+    #headerLink {
+        margin: 0 auto;
+        height: auto;
+        position: static;
+    }
+
+    #header {
+        padding-top: 128px;
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 377px) {
+    #headerLink {
+        width: 252px;
+    }
+}
+
+@media screen and (max-width: 251px) {
+    #headerLink {
+        width: 126px;
+    }
+}

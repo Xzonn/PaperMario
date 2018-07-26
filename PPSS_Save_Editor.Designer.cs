@@ -205,7 +205,7 @@
             this.pagesLabel.Name = "pagesLabel";
             this.pagesLabel.Size = new System.Drawing.Size(127, 23);
             this.pagesLabel.TabIndex = 12;
-            this.pagesLabel.Text = "贴纸页数：";
+            this.pagesLabel.Text = "收集册的页面：";
             this.pagesLabel.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
             // timeMinBox
