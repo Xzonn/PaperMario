@@ -8,7 +8,6 @@
 
 ## 致谢
 * 存档数据结构参考 **[Brionjv](https://github.com/Brionjv)** 发布于 [此处](https://github.com/Brionjv/Paper-Mario-SS-Save-Editor) 的项目。根据其说明，Hiccup 和 DaBlackDeath 提供了相关数据的地址。
-* 图片文件使用了上述项目中的图片。
 * 全部译名使用官方简体中文译名。
 
 ## 许可
@@ -22,3 +21,6 @@
   * 开坑。
 * 2018-05-26
   * 发布测试版 0.9.0。
+* 2018-07-26
+  * 创建《纸片马力欧 超级贴纸》专题站。
+  * 根据游戏数据修改贴纸图片。

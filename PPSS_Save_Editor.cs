@@ -174,8 +174,7 @@ namespace PPSS_Save_Editor
             stickerGroup.Enabled = true;
             saveItem.Enabled = true;
         }
-
-        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2202:不要多次释放对象")]
+        
         private void SaveFile(object sender, EventArgs e)
         {
             saveFileDialog.FileName = "";
@@ -253,7 +252,7 @@ namespace PPSS_Save_Editor
                     sticker.x = Data.GetInt16Data(0x01E6 + 0xA0 * page + 0x0A * i) / 25;
                     sticker.y = Data.GetInt16Data(0x01E8 + 0xA0 * page + 0x0A * i) / 25;
                     sticker.picture.Image = sticker.image;
-                    sticker.picture.Location = new Point(sticker.x * 24, sticker.y * 24);
+                    sticker.picture.Location = new Point(sticker.x * 25, sticker.y * 25);
                     sticker.picture.Size = new Size(sticker.image.Size.Width, sticker.image.Size.Height);
                     sticker.picture.Visible = true;
                 }
@@ -324,7 +323,7 @@ namespace PPSS_Save_Editor
             {
                 sticker.image = resources.GetObject("S" + Convert.ToString(StickerDatabase.stickerDatas.Find(s => s.name == stickerTypeBox.Text).code, 16).ToUpper()) as Image;
                 sticker.picture.Image = sticker.image;
-                sticker.picture.Location = new Point((int)stickerPosXBox.Value * 24, (int)stickerPosYBox.Value * 24);
+                sticker.picture.Location = new Point((int)stickerPosXBox.Value * 25, (int)stickerPosYBox.Value * 25);
                 sticker.picture.Size = new Size(sticker.image.Size.Width, sticker.image.Size.Height);
                 sticker.picture.Visible = true;
             }
@@ -361,10 +360,10 @@ namespace PPSS_Save_Editor
             if (isMouseDown)
             {
                 PictureBox picture = (PictureBox)sender;
-                int x = (picture.Left + e.X - mouseOffset.X) / 24;
+                int x = (picture.Left + e.X - mouseOffset.X) / 25;
                 if (x < 0) x = 0;
                 if (x > 9) x = 9;
-                int y = (picture.Top + e.Y - mouseOffset.Y) / 24;
+                int y = (picture.Top + e.Y - mouseOffset.Y) / 25;
                 if (y < 0) y = 0;
                 if (y > 5) y = 5;
                 stickerPosXBox.Value = x;

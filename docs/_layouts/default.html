@@ -31,11 +31,15 @@
                 <li><a href="./BattleSticker.html">战斗贴纸</a></li>
                 <li><a href="./ThingSticker.html">物品贴纸</a></li>
                 <li><a href="./HpUpHeart.html">体力 UP 之心</a></li>
+                <li><a href="./Luigi.html">路易吉贴纸</a></li>
+                <li><a href="./SuperFlags.html">超级旗帜</a></li>
+                <li><a href="./SecretDoor.html">秘密门</a></li>
             </ul>
         </div>
         <div id="content">
 {{ content }}
-        </div>
+        </div>{% if page.ref %}
+        <div id="references">{{page.ref}}</div>{% endif %}
         <a id="topLink"></a>
         <div id="footer">
             <div id="footerLicense">

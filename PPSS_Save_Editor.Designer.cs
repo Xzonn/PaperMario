@@ -492,9 +492,9 @@
             // 
             // stickerPanel
             // 
-            this.stickerPanel.Location = new System.Drawing.Point(172, 209);
+            this.stickerPanel.Location = new System.Drawing.Point(162, 209);
             this.stickerPanel.Name = "stickerPanel";
-            this.stickerPanel.Size = new System.Drawing.Size(240, 144);
+            this.stickerPanel.Size = new System.Drawing.Size(250, 150);
             this.stickerPanel.TabIndex = 16;
             // 
             // PPSS_Save_Editor

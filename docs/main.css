@@ -1,31 +1,31 @@
 #header {
-    background-image: url(./images/header.png);
-    height: 130px;
-    width: 100%;
     position: relative;
+    width: 100%;
+    height: 130px;
     border-bottom: 2px dashed #FFF;
+    background-image: url(./images/header.png);
 }
 
 #headerLogo {
+    position: absolute;
+    top: 0;
+    left: calc(50% - 600px);
     display: block;
     width: 357px;
     height: 128px;
-    position: absolute;
-    left: calc(50% - 600px);
-    top: 0;
     background-image: url(./images/logo.png);
     background-position-x: -74px;
 }
 
 #headerLogo:after {
-    display: block;
     position: absolute;
-    content: "";
-    bottom: 5px;
     right: 10px;
+    bottom: 5px;
+    display: block;
     width: 72px;
     height: 39px;
     background-image: url(./images/logo2.png);
+    content: "";
 }
 
 #headerLogo:hover {
@@ -33,37 +33,49 @@
 }
 
 #headerLink {
-    list-style: none;
+    position: absolute;
+    top: 21px;
+    left: calc(50% - 10.5px);
     margin: 0;
     padding: 0;
     width: 378px;
-    height: 43px;
-    position: absolute;
-    left: calc(50% - 10.5px);
-    top: 42.5px;
+    height: 86px;
+    list-style: none;
 }
 
 #headerLink:after {
-    content: '';
-    display: block;
     clear: both;
+    display: block;
+    content: '';
 }
 
 #headerLink li {
+    float: left;
     width: 126px;
     height: 43px;
     background: url(./images/button.png);
-    line-height: 43px;
     text-align: center;
-    float: left;
+    line-height: 43px;
 }
 
 #content {
     margin: 0 auto;
-    box-shadow: none;
     border: none;
     border-radius: 0;
     background: none;
+    box-shadow: none;
+}
+
+#references {
+    margin-left: 50%;
+    padding-right: 1em;
+    max-width: 600px;
+    color: #888;
+    text-align: right;
+}
+
+#references:before {
+    content: '参考资料：';
 }
 
 #footer {
@@ -74,11 +86,6 @@
     border-radius: 0;
     background: url(./images/footer.png) repeat-x;
 }
-
-.battleSticker.listTable td:nth-child(4), .battleSticker.listTable td:nth-child(5), .thingSticker.listTable td:nth-child(4) {
-        text-align: left;
-}
-
 
 .num {
     display: inline-block;
@@ -145,6 +152,10 @@
     #headerLogo {
         left: 0;
     }
+    
+    #refrences {
+        margin-left: calc(100% - 600px);
+    }
 }
 
 @media screen and (max-width: 734px) {
@@ -153,14 +164,20 @@
     }
 
     #headerLink {
+        position: static;
         margin: 0 auto;
         height: auto;
-        position: static;
     }
 
     #header {
         padding-top: 128px;
         height: auto;
+    }
+}
+
+@media screen and (max-width: 599px) {
+    #refrences {
+        margin-left: 0;
     }
 }
 
