@@ -1,0 +1,12 @@
+<table class="infoTable">
+    <thead>
+        <tr><th class="infoTableTitle" colspan="2">{{ include.mapName }}</th></tr>
+    </thead>
+    <tbody>{% unless include.noImage %}
+        <tr><td class="infoTableImage" colspan="2"><img src="images/map-{{ include.map }}.png" alt="{{ include.map }} {{ include.mapName }}"></td></tr>{% endunless %}
+        <tr><th>关卡</th><td>{{ include.map }}</td></tr>
+        <tr><th>上一关卡</th><td><a href="maps/{{ include.prev }}.html">{{ include.prevName }}</a></td></tr>
+        <tr><th>下一关卡</th><td><a href="maps/{{ include.next }}.html">{{ include.nextName }}</a></td></tr>
+        <tr><th class="infoTableFoot" colspan="2"><a href="./maps.html">世界地图</a></th></tr>
+    </tbody>
+</table>

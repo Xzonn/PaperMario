@@ -1,1 +1,3 @@
 name: 纸片马力欧 超级贴纸 专题站
+plugins:
+  - jekyll-sitemap
