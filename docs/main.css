@@ -1,10 +1,10 @@
 :root {
-    --color-left-block: #71D23D;
-    --color-left-block-light: #ADE98E;
-    --color-left-block-dark: #3D8914;
-    --color-content: #DF4163;
-    --color-content-light: #EF92A6;
-    --color-content-dark: #911530;
+    --color-cold: #71D23D;
+    --color-cold-light: #ADE98E;
+    --color-cold-dark: #3D8914;
+    --color-warm: #DF4163;
+    --color-warm-light: #EF92A6;
+    --color-warm-dark: #911530;
 }
 
 #header {
