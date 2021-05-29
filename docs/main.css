@@ -7,19 +7,29 @@
     --color-warm-dark: #911530;
 }
 
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
 #header {
-    position: relative;
     width: 100%;
-    height: 130px;
     border-bottom: 2px dashed #FFF;
     background-image: url(./images/header.png);
 }
 
+#header .col {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
 #headerLogo {
-    position: absolute;
-    top: 0;
-    left: calc(50% - 600px);
+    position: relative;
     display: block;
+    margin: 5px auto;
     width: 357px;
     height: 128px;
     background-image: url(./images/logo.png);
@@ -42,14 +52,14 @@
 }
 
 #headerLink {
-    position: absolute;
     top: 21px;
     left: calc(50% - 10.5px);
-    margin: 0;
+    display: flex;
+    margin: 0 auto;
     padding: 0;
-    width: 378px;
-    height: 86px;
+    max-width: 378px;
     list-style: none;
+    flex-wrap: wrap;
 }
 
 #headerLink:after {
@@ -60,17 +70,24 @@
 
 #headerLink li {
     float: left;
-    width: 126px;
     height: 43px;
+    min-width: 126px;
     background: url(./images/button.png);
+    background-position: center;
+    background-repeat: no-repeat;
     text-align: center;
     line-height: 43px;
+    flex: 1 0 0;
 }
 
 #content {
-    margin: 0 auto;
-    padding: 0 1em;
-    max-width: 1200px;
+    padding: 20px 0;
+    width: 100%;
+    flex: 1;
+}
+
+#content article {
+    padding: 10px 0;
 }
 
 #references {
@@ -87,12 +104,26 @@
 }
 
 #footer {
-    margin: 0;
+    display: flex;
+    margin: 20px 0 0 0;
+    padding: 15px;
     width: 100%;
     max-width: 100%;
     border: none;
     border-radius: 0;
     background: url(./images/footer.png) repeat-x;
+    flex-wrap: wrap;
+}
+
+#footer > div {
+    margin: 5px;
+    max-width: 100%;
+    text-align: center;
+    flex: 1 0 auto;
+}
+
+#footerCnzz {
+    display: none;
 }
 
 .num {
@@ -188,50 +219,5 @@
 @media screen and (max-width: 600px) {
     #content .infoTable {
         float: none;
-    }
-}
-
-@media screen and (max-width: 1200px) {
-    #headerLogo {
-        left: 0;
-    }
-    
-    #refrences {
-        margin-left: calc(100% - 600px);
-    }
-}
-
-@media screen and (max-width: 734px) {
-    #headerLogo {
-        left: calc(50% - 178.5px);
-    }
-
-    #headerLink {
-        position: static;
-        margin: 0 auto;
-        height: auto;
-    }
-
-    #header {
-        padding-top: 128px;
-        height: auto;
-    }
-}
-
-@media screen and (max-width: 599px) {
-    #refrences {
-        margin-left: 0;
-    }
-}
-
-@media screen and (max-width: 377px) {
-    #headerLink {
-        width: 252px;
-    }
-}
-
-@media screen and (max-width: 251px) {
-    #headerLink {
-        width: 126px;
     }
 }
